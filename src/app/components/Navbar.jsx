@@ -31,7 +31,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          <div className="rounded-full w-[100px] h-[100px] lg:w-[150px] lg:h-[50px] relative">
+          <div className="rounded-full w-[100px] h-[50px] lg:w-[150px] lg:h-[50px] relative">
             <Image
               src="/images/logo.png"
               alt="hero image"
