@@ -74,7 +74,7 @@ const EmailSection = () => {
         </div>
       </div>
       <div>
-          <div className="rounded-full bg-[#035e68a7] w-[100px] h-[1000px] lg:w-[300px] lg:h-[300px]">
+          <div className="rounded-full bg-[#035e68a7] w-[300px] h-[300px] lg:w-[300px] lg:h-[300px] relative mt-8 ml-8">
             <Image
               src="/images/profile.png"
               alt="hero image"

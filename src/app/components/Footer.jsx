@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white items-center" >
       <div className="container p-12 flex justify-between">
         <span>
-        <div className="rounded-full bg-[#035e68a7] w-[100px] h-[1000px] lg:w-[50px] lg:h-[50px] relative">
+        <div className="rounded-full bg-[#035e68a7] w-[50px] h-[50px] lg:w-[50px] lg:h-[50px] relative">
             <Image
               src="/images/profile.png"
               alt="hero image"

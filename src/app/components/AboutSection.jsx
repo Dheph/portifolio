@@ -129,6 +129,7 @@ const AboutSection = () => {
           width={500}
           height={500}
           style={{ borderRadius: 20 }}
+          alt="about-me"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
@@ -173,6 +174,9 @@ const AboutSection = () => {
               {" "}
               Frontend{" "}
             </TabButton>
+            
+          </div>
+          <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
@@ -201,7 +205,7 @@ const AboutSection = () => {
               {" "}
               Jobs{" "}
             </TabButton>
-          </div>
+            </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
