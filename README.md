@@ -4,13 +4,13 @@ This is a portfolio website built with Next.js and Tailwind CSS. It showcases yo
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/judygab/nextjs-portfolio.git`
+1. Clone the repository: `git clone https://github.com/Dheph/portifolio.git`
 2. Navigate to the project directory: `cd portfolio-website`
-3. Install the dependencies: `npm install`
+3. Install the dependencies: `yarn install`
 
 ## Usage
 
-1. Start the development server: `npm run dev`
+1. Start the development server: `yarn dev`
 2. Open your browser and visit `http://localhost:3000` to view the website.
 
 ## Dependencies
@@ -22,7 +22,7 @@ The following dependencies are required for this project:
 - React: A JavaScript library for building user interfaces.
 - React Icons: A collection of popular icons for React projects.
 - TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
-- Resend: Resend is the email API for developers.
+<!-- - Resend: Resend is the email API for developers. -->
 
 ## License
 
