@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import YoutubeIcon from "../../../public/youtube-icon.png";
+import TiktokIcon from "../../../public/tiktok.jpg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -56,16 +58,32 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/Dheph">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/dhepherson-ribeiro-90b991184/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
+          <Link href="https://www.youtube.com/channel/UCfxIu2YA2QjhvaTP9yr_Naw">
+            <Image src={YoutubeIcon} alt="Youtube Icon" style={{width: 50  }}/>
+          </Link>
+          <Link href="https://www.tiktok.com/@_dheph">
+            <Image src={TiktokIcon} alt="TikTok Icon" style={{width: 50, padding: 6, borderRadius:10}}/>
+          </Link>
+         
         </div>
       </div>
       <div>
-        {emailSubmitted ? (
+          <div className="rounded-full bg-[#035e68a7] w-[100px] h-[1000px] lg:w-[300px] lg:h-[300px]">
+            <Image
+              src="/images/profile.png"
+              alt="hero image"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              width={300}
+              height={300}
+            />
+          </div>
+        {/* {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">
             Email sent successfully!
           </p>
@@ -84,7 +102,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="example@google.com"
               />
             </div>
             <div className="mb-6">
@@ -124,7 +142,7 @@ const EmailSection = () => {
               Send Message
             </button>
           </form>
-        )}
+        )} */}
       </div>
     </section>
   );

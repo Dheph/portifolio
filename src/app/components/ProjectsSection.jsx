@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
+    description: "My personal portifólio with React and Next",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,48 +16,86 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "App Aprovafacil corretores",
+    description:
+      "The Approva app is the perfect solution to follow your customer's entire journey in the palm of your hand, wherever and whenever you want. Performing credit analyzes in a few minutes, integrated with our marketplace with more than 40,000 units and exclusive materials to boost your sales. Created with React Native",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Mobile"],
+    // gitUrl: "/",
+    previewUrl:
+      "https://play.google.com/store/apps/details?id=com.aprovafacilcorretor",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "App ApprovaFacil Credito",
+    description:
+      "The Approva Cred application is the perfect solution to follow your customer's entire journey in the palm of your hand, wherever and whenever you want. Performing credit analyzes in a few minutes, integrated with our marketplace with more than 40,000 units and exclusive materials to boost your sales. Created with React Native",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Mobile"],
+    // gitUrl: "/",
+    previewUrl:
+      "https://play.google.com/store/apps/details?id=com.approvafacil.credito",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "App Minha Dz7",
+    description: "Internet connection manager Native app",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    // gitUrl: "/",
+    previewUrl:
+      "https://play.google.com/store/apps/details?id=br.com.dz7telecom.sistemas",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Acqio Franquias",
+    description: "franchise manager. Created With React Native",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Mobile"],
+    // gitUrl: "/",
+    previewUrl:
+      "https://play.google.com/store/apps/details?id=com.acqio.franchiseeapp",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "Ima Halu Gamashi",
+    description:
+      "This is the app of the Institute of Ascension Mysteries, the Mystery School of Halu Gamashi! Now you can more easily access the content acquired at IMA, participate in the lives and watch the videos you download offline!. Created With React Native",
     image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    tag: ["All", "Mobile"],
+    // gitUrl: "/",
     previewUrl: "/",
+  },
+  {
+    id: 7,
+    title: "Personal Blog",
+    description: "Personal Blog. Created With React and Next",
+    image: "/images/projects/7.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Dheph/Dheph-Blog",
+    previewUrl: "https://blog-dheph.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Acqio Lojistas",
+    description:
+      "With the Acqio Lojistas application, you have greater convenience to monitor sales made on your machine, view your receivables schedule, simulate a sale, check your rates, request services, in addition to sharing sales receipts with your customers. Created With React Native",
+    image: "/images/projects/8.png",
+    tag: ["All", "Mobile"],
+    // gitUrl: "/",
+    previewUrl:
+      "https://play.google.com/store/apps/details?id=com.acqio.storeapp",
+  },
+  {
+    id: 9,
+    title: "Teomidia",
+    description:
+      "TEOmídia is a Christian subscription service for movies, series, documentaries, lectures, courses and children's cartoons to watch anytime, anywhere. This TEOmedia app was created with the purpose of helping you to grow, 7 days a week, in the grace and knowledge of our Lord and Savior Jesus Christ. Created With React Native",
+    image: "/images/projects/9.png",
+    tag: ["All", "Mobile"],
+    // gitUrl: "/",
+    previewUrl:
+      "https://play.google.com/store/apps/details?id=br.com.comev.teomidia",
   },
 ];
 
