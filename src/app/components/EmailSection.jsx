@@ -64,7 +64,7 @@ const EmailSection = () => {
           <Link href="https://www.linkedin.com/in/dhepherson-ribeiro-90b991184/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
-          <Link href="https://www.youtube.com/channel/UCfxIu2YA2QjhvaTP9yr_Naw">
+          <Link href="https://youtube.com/@dheph?sub_confirmation=1">
             <Image src={YoutubeIcon} alt="Youtube Icon" style={{width: 50  }}/>
           </Link>
           <Link href="https://www.tiktok.com/@_dheph">
