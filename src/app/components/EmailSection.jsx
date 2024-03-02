@@ -4,6 +4,7 @@ import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import YoutubeIcon from "../../../public/youtube-icon.png";
 import TiktokIcon from "../../../public/tiktok.jpg";
+import MailIcon from "../../../public/mail.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -69,6 +70,9 @@ const EmailSection = () => {
           </Link>
           <Link href="https://www.tiktok.com/@_dheph">
             <Image src={TiktokIcon} alt="TikTok Icon" style={{width: 50, padding: 6, borderRadius:10}}/>
+          </Link>
+          <Link href="mailto:dheph.lage@gmail.com">
+            <Image src={MailIcon} alt="Mail Icon" style={{width: 50, padding: 6, borderRadius:10, backgroundColor:'#fff'}}/>
           </Link>
          
         </div>
