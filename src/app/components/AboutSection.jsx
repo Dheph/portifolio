@@ -143,7 +143,7 @@ const AboutSection = () => {
             inform programmers and enthusiasts in the field. I have a proven
             track record of success in diverse projects, from corporate
             applications to solutions for startups. Let&apos;s discuss how I can
-            contribute to the success of your next mobile project? ☕
+            contribute to the success of your next project? ☕
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
