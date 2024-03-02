@@ -11,7 +11,7 @@ const projectsData = [
     description: "My personal portifólio with React and Next",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Dheph/portifolio",
     previewUrl: "/",
   },
   {
