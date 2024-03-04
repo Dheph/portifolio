@@ -13,6 +13,7 @@ const TAB_DATA = [
         <li>Typescript</li>
         <li>Java</li>
         <li>Python</li>
+        <li>Swift</li>
         <li>Dart</li>
       </ul>
     ),
@@ -23,9 +24,9 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>React Native</li>
-        <li>Flutter</li>
         <li>Android</li>
         <li>IOS</li>
+        <li>Flutter</li>
       </ul>
     ),
   },

@@ -5,6 +5,8 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+
+
 const HeroSection = () => {
   return (
     <section className="lg:py-16">
@@ -49,13 +51,32 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="https://www.linkedin.com/in/dhepherson-ribeiro-90b991184/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              href="https://drive.google.com/file/d/1Lk16F5km0pF_bl8GpKL5pIl9Tr8OS3EO/view?usp=sharing"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download Linkedin CV
+                pt(br) CV
               </span>
             </Link>
+
+            <Link
+              href="https://drive.google.com/file/d/1wMaZjuNon9UrwjJrk2tk0O6wfYDih7xe/view?usp=sharing"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+            >
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                eng CV
+              </span>
+            </Link>
+
+            <Link
+              href="https://drive.google.com/file/d/1m2ALS1UM_lbfIf1cEpxEciGeZw1cWQ8d/view?usp=sharing"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+            >
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                esp CV
+              </span>
+            </Link>
+
           </div>
         </motion.div>
         <motion.div
