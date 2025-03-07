@@ -21,12 +21,13 @@ const achievementsList = [
     postfix: "+",
   },
   {
-    metric: "Y Fullstack",
-    value: "6",
+    metric: "Fullstack Projects",
+    value: "20",
+    postfix: "+",
   },
   {
-    metric: "Y Mobile",
-    value: "5",
+    metric: "Years Mobile",
+    value: "6",
   },
 ];
 
