@@ -97,6 +97,15 @@ const projectsData = [
     previewUrl:
       "https://play.google.com/store/apps/details?id=br.com.comev.teomidia",
   },
+  {
+    id: 10,
+    title: "BWG App",
+    description:
+      "The BWG app provides seamless financial solutions with advanced features, real-time analytics, and secure transactions. Created with React Native.",
+    image: "/images/projects/10.png",
+    tag: ["All", "Mobile"],
+    previewUrl: "https://play.google.com/store/apps/details?id=com.bwg.app",
+  },
 ];
 
 const ProjectsSection = () => {
